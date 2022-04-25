@@ -6,7 +6,6 @@ const typeDefs = gql`
         addUser(username: String!, email: String!, password: String!):Auth
         saveBook(bookData: book!):User
         removeBook(bookId: ID!):User
-
     }
   type User {
     _id: ID!
